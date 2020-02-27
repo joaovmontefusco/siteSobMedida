@@ -1,0 +1,398 @@
+.loader{
+    position: fixed;
+    z-index: 99;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo20anos{
+    width: 100%;
+}
+
+.loader.hidden{
+    animation: fadeOut 0.3s;
+    animation-delay: 2s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes fadeOut{
+    100%{
+        opacity: 0;
+        visibility: collapse;
+    }
+}
+
+.barra-nav{
+    position: absolute;
+    top: 0;
+}
+
+.navmenu{
+    font-size: 25px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.nav-home, .nav-sobre, .nav-depoimentos, .nav-clientes, .nav-premios, .nav-contato{
+    padding-bottom: 20px;
+}
+
+@media screen and (min-width: 1000px) {
+    .nav-home:hover{
+        background-image: url(../img/Underline-home.png);
+        background-repeat: no-repeat;
+        background-position: center bottom;
+    }
+
+    .nav-sobre:hover{
+        background-image: url(../img/Underline-sobrenós.png);
+        background-repeat: no-repeat;
+        background-position: center bottom;
+    }
+
+    .nav-depoimentos:hover{
+        background-image: url(../img/Underline-depoimentos.png);
+        background-repeat: no-repeat;
+        background-position: center bottom;
+    }
+
+    .nav-clientes:hover{
+        background-image: url(../img/Underline-clientes.png);
+        background-repeat: no-repeat;
+        background-position: center bottom;
+    }
+
+    .nav-premios:hover{
+        background-image: url(../img/Underline-prêmios.png);
+        background-repeat: no-repeat;
+        background-position: center bottom;
+    }
+
+    .nav-contato:hover{
+        background-image: url(../img/Underline-contato.png);
+        background-repeat: no-repeat;
+        background-position: center bottom;
+    }
+}
+
+.navmenuitem{
+    margin-left: 10px;
+}
+
+.barra-nav{
+    position: absolute;
+    top: 30px;
+}
+
+.background-nav{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 20%;
+}
+
+.background-home img{
+    width: 100%;
+    position: relative;
+    margin-bottom: -29%;
+}
+
+.navbar-mobile{
+    background-image: url(../img/BackgroundNav.png);
+    background-size: 100%;
+}
+
+.linhaprincipal{
+    position: relative;
+    margin-left: 56.5%;
+}
+
+.linhaprincipal img{
+    width: 95%;
+}
+
+.logoprincipal{
+    position: relative;
+    margin-top: -2%;
+    margin-left: 86.9%;
+}
+
+.logoprincipal img{
+    width: 75%;
+}
+
+.espaco_folha img{
+    position: relative;
+    width: 100%;
+    margin-top: 6.97%;
+}
+
+.sobrenos{
+    width: 100%;
+    background-color: white;
+}
+
+.aspas{
+    font-size: 100px;
+    float: left;
+    margin-top: -40px;
+    padding-left: 25%;
+}
+
+.sobrenos-texto{
+    float: left;
+    width: 30%;
+    margin-top: 30px;
+    text-align: justify;
+}
+
+.linhasobrenos{
+    position: relative;
+    margin-left: 80%;
+    margin-top: 45px;
+}
+
+.linhasobrenos img{
+    width: 150px;
+}
+
+@media screen and (max-width: 1000px) {
+
+    .sobrenos-texto{
+        padding-left: 5%;
+        width: 60%;
+    }
+
+    .linhasobrenos img{
+        margin-top: 120%;
+        width: 100px;
+    }
+
+    .aspas{
+        padding-left: 5%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .sobrenos-texto{
+        padding-left: 5%;
+        width: 80%;
+    }
+
+    .linhasobrenos img{
+        width: 0;
+    }
+    .aspas{
+        padding-left: 0;
+    }
+}
+
+.depoimentos{
+    background-image: linear-gradient(white, #e2e2e2);
+    clear: both;
+}
+
+.depoimentos-titulo{
+    text-align: right;
+    margin-bottom: 20px;
+    margin-right: 15%;
+}
+
+.depoimentos-carrossel{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.linhaverde{
+    width: 100%;
+    height: 60px;
+    background-color: #92b475;
+}
+
+.clientes{
+    margin-top: 30px;
+}
+
+.clientes-titulo{
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.linhacliente{
+    position: relative;
+    bottom: 75px;
+}
+
+.linhacliente img{
+    width: 44%;
+}
+
+.clientes-logos{
+    width: 80%;
+    margin-left: 11%
+}
+
+.background-premios{
+    margin-top: -8px;
+    margin-bottom: 0;
+}
+
+.background-premios img{
+    width: 100%;
+    margin-bottom: -61.5%;
+}
+
+.linhapremio{
+    position: relative;
+    margin-left: 2%;
+}
+
+.linhapremio img{
+    width: 40%;
+}
+
+.premios-texto{
+    position: absolute;
+    margin-left: 55%;
+    margin-top: 10%;
+}
+
+@media screen and (max-width: 1200px) {
+    .premios-texto{
+        margin-top: 5px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+
+    .premios{
+        background-image: url(../img/BackgroundNav.png);
+    }
+    .premios-texto{
+        width: 50%;
+        margin:0;
+        position: relative;        
+        padding-bottom: 0.1px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .background-premios{
+        margin-top: -22px;
+    }
+
+    .background-premios img{
+        margin-bottom: -62.5%;
+    }
+
+    .linhapremio{
+        margin-left: 2.2%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .background-premios img{
+        margin-bottom: -65%;
+    }
+
+    .linhapremio{
+        margin-left: 2.2%;
+    }
+
+    .premios-texto{
+        width: 90%;
+        margin-left: 4%;
+    }
+}
+
+.contato{
+    margin-top: 5%;
+}
+
+.contato-texto{
+    width: 45%;
+    float: left;
+    margin-top: 5%;
+    margin-left: 5%;
+}
+
+.contato-texto address{
+    margin-bottom: 20px;
+}
+
+.contato-titulo{
+    margin-left: 5%;
+    margin-bottom: 80px;
+}
+
+.linhacontato{
+    position: relative;
+    margin-bottom: -10%;
+}
+
+.linhacontato img{
+    width: 14%;
+}
+
+.contato-imagem{
+    width: 50%;
+    float: left;
+    margin-top: 200px;
+}
+
+.contato-imagem img{
+    width: 100%;
+    margin-bottom: -250px;
+}
+
+.contato-linhaverde{
+    width: 100%;
+    height: 250px;
+    background-color: #92b475;
+    opacity: 0.5;
+    clear: left;
+    position: relative;
+}
+
+@media screen and (max-width: 1000px) {
+    .contato-linhaverde{
+        height: 100px;
+    }
+    .contato-imagem img{
+        margin-bottom: -100px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .contato-titulo{
+        margin-bottom: 40px;
+    }
+    .contato-texto{
+        width: 80%;
+    }
+    .contato-imagem{
+        width: 100%;
+        margin: 0 auto;
+    }
+    .contato-linhaverde{
+        height: 150px;
+    }
+    .contato-imagem img{
+        margin-bottom: -150px;
+    }
+
+    .linhacontato{
+        margin-bottom: -16%;
+    }
+
+    .linhacontato img{
+        width: 30%;
+    }
+}
