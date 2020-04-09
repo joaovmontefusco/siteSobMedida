@@ -1,13 +1,3 @@
-@font-face {
-    font-family: helveticaneuethin;
-    src: url('../font/HelveticaNeueLTStd-Th.otf');
-}
-
-@font-face {
-    font-family: helveticaneuelight;
-    src: url('../font/HelveticaNeueLTStd-Lt.otf');
-}
-
 .loader{
     position: fixed;
     z-index: 99;
@@ -93,7 +83,7 @@
 }
 
 .navmenuitem{
-    font-family: helveticaneuethin;
+    font-family: 'Heebo', sans-serif;
     margin-left: 35px;
     margin-right: 35px;
 }
@@ -168,7 +158,7 @@
     float: left;
     width: 50%;
     margin-top: 30px;
-    font-family: helveticaneuelight;
+    font-family: 'Roboto', sans-serif;
 }
 
 .linhasobrenos{
@@ -224,7 +214,7 @@
 .depoimentos-titulo{
     text-align: right;
     margin-right: 15%;
-    font-family: helveticaneuelight;
+    font-family: 'Roboto', sans-serif;
 }
 
 .depoimentos-carrossel{
@@ -246,7 +236,7 @@
 .clientes-titulo{
     text-align: center;
     margin-bottom: 40px;
-    font-family: helveticaneuelight;
+    font-family: 'Roboto', sans-serif;
 }
 
 .linhacliente{
@@ -286,7 +276,7 @@
     position: absolute;
     margin-left: 55%;
     margin-top: 10%;
-    font-family: helveticaneuelight;
+    font-family: 'Roboto', sans-serif;
     font-size: 0.9rem;
 }
 
@@ -347,7 +337,7 @@
     float: left;
     margin-top: 5%;
     margin-left: 5%;
-    font-family: helveticaneuelight;
+    font-family: 'Roboto', sans-serif;
 }
 
 .contato-texto address{
